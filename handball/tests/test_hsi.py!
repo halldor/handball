@@ -1,0 +1,9 @@
+# coding: utf-8
+import unittest
+
+from ..spiders import 
+from .utils import fake_response_from_file
+
+
+class HSITest(unittest.TestCase):
+
