@@ -1,0 +1,186 @@
+[{
+    "type": "goalkeeper",
+    "name": "Bjarki Gar\u00f0arsson",
+    "number": "1",
+    "saves": {
+        "9m": 0,
+        "6m": 0,
+        "7m": 0
+    },
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Gu\u00f0ni Gu\u00f0mundsson",
+    "number": "5",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 10,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00d3ttar Filipp P\u00e9tursson",
+    "number": "8",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00d3li Bj\u00f6rn Vilhj\u00e1lmsson",
+    "number": "13",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 2,
+        "red": false
+    },
+    "attempts": {
+        "goals": 4,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Sigurbj\u00f6rn Bernhar\u00f0 Edvardsson",
+    "number": "14",
+    "penalties": {
+        "yellow": true,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 1,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Sm\u00e1ri Kristinsson",
+    "number": "15",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00d3lafur Gu\u00f0ni Eir\u00edksson",
+    "number": "17",
+    "penalties": {
+        "yellow": true,
+        "suspensions": 1,
+        "red": false
+    },
+    "attempts": {
+        "goals": 3,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Brynjar J\u00f6kull Gu\u00f0mundsson",
+    "number": "18",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00dalfur Gunnar Kjartansson",
+    "number": "22",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 2,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "R\u00f3bert \u00d6rn Karlsson",
+    "number": "23",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "H\u00f6r\u00f0ur S\u00e6var \u00d3skarsson",
+    "number": "34",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 4,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "R\u00f3bert Pettersson",
+    "number": "35",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 3,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "official",
+    "name": "R\u00f3bert \u00de\u00f3r Sighvatsson"
+}, {
+    "type": "official",
+    "name": "Leifur \u00d3skarsson"
+}, {
+    "type": "official",
+    "name": "Gylfi Gylfason"
+}, {
+    "type": "official",
+    "name": "Antonio Grave"
+}]

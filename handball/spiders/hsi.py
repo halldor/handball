@@ -8,15 +8,12 @@ import scrapy
 from contextlib import contextmanager
 from datetime import datetime
 
+from .hsi_profiles import get_player_parser, parse_basic, UnknownPlayerType
+
 logger = logging.getLogger(__name__)
 
 
 LOCALE_LOCK = threading.Lock()
-PLAYER_STATUS = {
-    u"markverðir": "goalkeeper",
-    u"útileikmenn": "outfield",
-    u"starfsmenn": "official",
-}
 
 
 @contextmanager
@@ -27,6 +24,18 @@ def use_locale(name):
             yield locale.setlocale(locale.LC_ALL, name)
         finally:
             locale.setlocale(locale.LC_ALL, saved)
+
+
+def clean_tag_text(text):
+    """
+    Remove partial &nbsp; tags from the text and strip leading and trailing
+    whitespace.
+    """
+    return text \
+        .replace("&nbsp;", "") \
+        .replace("&nbsp", "") \
+        .replace("&nbs", "") \
+        .replace("&nb", "").strip()
 
 
 def _text(el):
@@ -182,22 +191,17 @@ class HSISpider(scrapy.Spider):
         for team in team_tags:
             team_name = _text(team)
             rows = team.xpath("ancestor::tr/following-sibling::tr")
-            header = []
             team_roster = []
+            parser = parse_basic("unknown")
             for row in rows:
                 if row.xpath("th"):
-                    fields = [s.strip() for s in row.xpath(
-                        "th/text()").extract()]
+                    fields = tuple([clean_tag_text(" ".join(f)) for f in (
+                        e.xpath("text()").extract() for e in row.xpath("th"))])
 
-                    player_type = fields[1]
-                    header = ["number", "name"] + fields[2:]
+                    parser = get_player_parser(fields)
                 else:
-                    player = dict(filter(
-                        # remove "fields" where there is neither key nor value
-                        lambda t: t[0].replace("&nbsp", ""),
-                        zip(header, [s.strip() for s in row.xpath(
-                            "td/text()").extract()])))
-                    player["status"] = PLAYER_STATUS[player_type.lower()]
+                    player = parser([clean_tag_text(" ".join(s)) for s in (
+                        e.xpath("text()").extract() for e in row.xpath("td"))])
 
                     # special case for the "total number of goals/penalties"
                     if player.get("name", "") != "Samtals":

@@ -38,7 +38,7 @@ def count_goals(name, matches):
 
     def find_goals(match):
         if hasattr(match["home"], "get"):
-            return sum(imap(lambda player: player.get("goals", 0), ifilter(
+            return sum(imap(lambda player: player.get("attempts", {}).get("goals", 1), ifilter(
                     lambda x: x.get("name", "").lower() == _name,
                     chain(match["home"]["roster"], match["away"]["roster"]))))
 

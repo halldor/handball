@@ -1,4 +1,5 @@
 # coding: utf-8
+import json
 import os
 
 from scrapy.http import HtmlResponse, Request
@@ -32,3 +33,14 @@ def fake_response_from_file(file_name, url=None):
         body=file_content,
         encoding='iso-8859-1')
     return response
+
+
+def json_fixture(filename):
+    """
+    A helper function to load a json fixture from our fixture directory. Placed
+    here to keep the test methods cleaner.
+    """
+    fixture_path = os.path.join(
+        os.path.dirname(os.path.realpath(__file__)),
+        "fixtures")
+    return json.load(open(os.path.join(fixture_path, filename), "r"))

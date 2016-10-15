@@ -1,0 +1,213 @@
+[{
+    "type": "goalkeeper",
+    "number": "1",
+    "name": "\u00d3lafur Bj\u00f6rn Magn\u00fasson",
+    "saves": {
+        "9m": 0,
+        "6m": 0,
+        "7m": 0
+    },
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "goalkeeper",
+    "name": "Sigur\u00f0ur \u00d6rn Arnarson",
+    "number": "12",
+    "saves": {
+        "9m": 0,
+        "6m": 0,
+        "7m": 0
+    },
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Sigur\u00f0ur A\u00f0alsteinn \u00deorgeirsson",
+    "number": "4",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 3,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Bjarki P\u00e9tursson",
+    "number": "5",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 1,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Gu\u00f0j\u00f3n Finnur Drengsson",
+    "number": "6",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 1,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Snorri Rafn Theod\u00f3rsson",
+    "number": "9",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Stef\u00e1n T\u00f3mas \u00de\u00f3rarinsson",
+    "number": "10",
+    "penalties": {
+        "yellow": true,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 3,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Arne Karl Wehmeier",
+    "number": "11",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 2,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Kristinn Bj\u00f6rg\u00falfsson",
+    "number": "14",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 5,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00de\u00f3rir Bjarni Traustason",
+    "number": "15",
+    "penalties": {
+        "yellow": true,
+        "suspensions": 1,
+        "red": false
+    },
+    "attempts": {
+        "goals": 1,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00d3lafur Fannar Heimisson",
+    "number": "16",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 1,
+        "red": false
+    },
+    "attempts": {
+        "goals": 1,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "\u00deorkell Magn\u00fasson",
+    "number": "17",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 5,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Arnar Freyr The\u00f3d\u00f3rsson",
+    "number": "23",
+    "penalties": {
+        "yellow": true,
+        "suspensions": 0,
+        "red": false
+    },
+    "attempts": {
+        "goals": 3,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "outfielder",
+    "name": "Almar Gauti Ingvason",
+    "number": "24",
+    "penalties": {
+        "yellow": false,
+        "suspensions": 1,
+        "red": false
+    },
+    "attempts": {
+        "goals": 0,
+        "saved": 0,
+        "missed": 0
+    }
+}, {
+    "type": "official",
+    "name": "The\u00f3d\u00f3r Sigur\u00f0sson"
+}, {
+    "type": "official",
+    "name": "Halld\u00f3r Ingi Bl\u00f6ndal"
+}]
